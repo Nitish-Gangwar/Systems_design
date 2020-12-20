@@ -1,0 +1,44 @@
+#####################################################################################################################################################
+									README
+#####################################################################################################################################################
+		
+		     NAME		ROLLNO
+		     
+Team Member 1 : Nitish Gangwar	      203050069
+
+Team Member 2 : Suhanshu Patel	      203050102
+
+Commands for running the Makefile (Type):
+		make
+		
+Command for running the server executable (Type):
+		./server
+
+Command for running the client (Type below given command in separate tab for each new client):
+		./client
+
+Command for stoping the client (Type):
+		stop
+(After typing stop client tab will display the number of (requests/time) for that client)
+
+Command for cleaning the executable file (Type):
+		make clean
+
+for padding in keys and values we have used '%' percent modulus character
+
+config file name="server.conf"  (name is without quotes)
+
+Command format for requesting is 
+
+for GET command:
+	GET key
+
+for PUT command:
+	PUT key value
+
+for DEL command:
+	DEL key
+
+							THANK YOU
+
+

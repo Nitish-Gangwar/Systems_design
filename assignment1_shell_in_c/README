@@ -1,0 +1,4 @@
+For compilation run following query:
+	make
+For execution run following query:
+	./hello
