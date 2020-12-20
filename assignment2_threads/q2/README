@@ -1,0 +1,11 @@
+command for compiling the code:
+		
+	make
+
+command for running the code :
+
+	make run
+
+REFERENCES:
+https://moodle.iitb.ac.in/mod/forum/discuss.php?d=7180
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi_v-uNsPXrAhVOQd4KHRoJDEcQFjAAegQIAxAB&url=http%3A%2F%2Fwww.math.nsysu.edu.tw%2F~lam%2FMPI%2Flecture%2FNo11.doc&usg=AOvVaw1saS3bAQEkCb3RSOYRfOOB

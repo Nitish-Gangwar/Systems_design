@@ -1,0 +1,35 @@
+                                
+                                   /**** COMMAND FOR RUNNING THE FIRST PART OF QUESTION 1 ****/
+command for compiling the threads.c:
+
+	gcc -pthread threads.c -o out
+	
+command for running the threads.c(REPLACE THE number_of_threads_as_input with some positive integer value):
+
+	./out number_of_threads_as_input
+	
+				   /**** COMMAND FOR RUNNING THE SECOND PART OF QUESTION 1 ****/
+				   
+command for compiling the nlocks.c:
+
+	gcc -pthread nlocks.c -o out
+	
+command for running the nlocks.c:
+
+	./out 
+
+				   /**** COMMAND FOR RUNNING THE PROGRAM ALLTOGETHER USING Makefile THEN LOOK FOR CODE BELOW ****/
+				   
+command for compiling the program using Makefile then type :
+	
+	make
+
+command for running the program together using Makefile then type(PLEASE REPLACE give_the_number_of_threads_as_input with the integer_value AND DON'T GIVE SPACE BETWEEN THREADS=integer):
+
+	make run THREADS=give_the_number_of_threads_as_input
+
+
+
+REFERENCES:
+https://stackoverflow.com/questions/10879420/using-of-shared-variable-by-10-pthreads
+

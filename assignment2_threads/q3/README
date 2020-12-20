@@ -1,0 +1,11 @@
+command for compiling the code:
+	
+		make
+	
+command for running the code:
+
+		make run
+		
+REFERENCES:
+https://www.codegrepper.com/code-examples/c/How+to+pass+a+struct+value+to+a+pthread+in+c%3F
+https://www.i-programmer.info/programming/cc/12288-applying-c-condition-variables.html
