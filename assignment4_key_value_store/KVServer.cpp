@@ -438,6 +438,7 @@ int handle_request(int clientfd) {
 				//cout<<tempo[j]<<" ";
 			}
 			tempo[len]='\0';
+			LRUCache(temp_array[1],temp_array[2], mymapLRU,&headLRU,&endLRU,cache_size);
 		}
 		else
 		{
@@ -445,6 +446,7 @@ int handle_request(int clientfd) {
 			if(check_from_file(temp_array[1],tempo))//this will check the key inside metadata and will fetch it from file
 			{	//and places the value inside tempo
 				code=200;
+				LRUCache(temp_array[1],temp_array[2], mymapLRU,&headLRU,&endLRU,cache_size);
 			}
 			else
 			{
